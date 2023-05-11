@@ -1,0 +1,180 @@
+Power BI Notes ->
+
+Youtube videos link -> https://www.youtube.com/playlist?list=PLNLDEHOJTZShQiU306jM5mBpz8ZQNOJe3  
+
+Power BI download link -> https://powerbi.microsoft.com/en-in/downloads/
+
+temporary email -> dobiv83786@lieboe.com - pwd - Cersh25# 
+
+Power BI Certificate download after may 2nd 2023 
+
+
+
+Assignments ->
+
+Module 8 -> Advanced Analytics -> Ongoing 
+
+install.packages("readr", repos = "http://cran.us.r-project.org")
+library("readr")
+r_data <- read_csv("C:\\Users\\seema\\OneDrive\\Desktop\\COURSE\\360DigiTMG Course\\Power BI_17042023_10AM\\Datasets\\order table.csv")
+
+
+install.packages("ggplot2",repos="http://cran.us.r-project.org")
+library("ggplot2")
+ggplot(r_data,aes(x=Sales,y=Quantity))+geom_point(size=6)
+
+import pandas as pd
+p_data = pd.read_csv("C:\\Users\\seema\\OneDrive\\Desktop\\COURSE\\360DigiTMG Course\\Power BI_17042023_10AM\\Datasets\\order table.csv")
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+task ->
+
+https://en.wikipedia.org/wiki/2020_Summer_Olympics - web scraping - done 
+
+
+IST -> UTC +05:30 timezone offset 
+
+Refresh time interval power BI - https://medium.com/@andrewkboles/how-to-create-a-refresh-datetime-for-power-bi-reports-in-a-certain-time-zone-6c81ca7ed24#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg2OTY5YWVjMzdhNzc4MGYxODgwNzg3NzU5M2JiYmY4Y2Y1ZGU1Y2UiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2ODIwODYxMDIsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwOTgwNjMwODYzMjUxMTIzNDQ4OCIsImVtYWlsIjoic2VlbWFpeWVuZ2FyMTk5NEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IlNlZW1zIEIgUyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BR05teXhZRGhGaE9Feno2cnVKY1FVT3R4R1BmT1pELTcwU1ZCZ1JUY1FJcz1zOTYtYyIsImdpdmVuX25hbWUiOiJTZWVtcyIsImZhbWlseV9uYW1lIjoiQiBTIiwiaWF0IjoxNjgyMDg2NDAyLCJleHAiOjE2ODIwOTAwMDIsImp0aSI6IjFiMzk5MGJhNTc2ZDhkOGNjZmYyNjgyYTQzOTBlZmQ5YjMzNDE5NDYifQ.lzs3z_Xr-xrvR6wlpKeKwWBvRh-lqkDQmm2NuR6s72XyMl_TMcTh_kSHSVnBe4S0LrilFVt9oJa2mLH4X_BzGW-YhdEWaAly_0psrXTG4f52SqNGkc2LLF4fpczwjU8I_yFwDqff1oMQ9n4Rv8zk2O_ATLofkECFPj_5ci6_ETYxhgCxPfgzdOJCy6IV-S3_O1Wgt5-VaZwEioOarGfknG0gkHO4fNA5FEPhTf88BisdrzJ375zdwUZNJtzM299GML8TAFh3wVgmtYYgo4I_ssgpIohM-046BUoDLc2RkNIPEazHC1q67_QSYADSMm2opS80mknhaVMFFVKLSQLSWA 
+
+
+live streaming data -> https://learn.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming
+
+Sub-key: sub-c-99084bc5-1844-4e1c-82ca-a01b18166ca8
+Channel name: pubnub-sensor-network
+
+
+Gateway -> https://powerbi.microsoft.com/en-us/gateway/
+
+
+Orders dataset -> settings -> gateway connection -> datasource credentials -> copy paste path of orders dataset -> privacy level private
+
+
+
+SQL -> Install SSMS done
+
+
+
+
+today's
+
+row level security -> class 6 
+
+cmd prompt -> 
+
+python --version
+pip install pandas , numpy,matplotlib,
+
+
+goto power BI -> goto files -> option & settings -> goto options -> python scripting -> detected python home directories choose the path of 311 first one 
+
+get data -> more -> other -> Python script -> connect 
+
+inside the script type these ->
+
+import pandas as pd
+data = pd.read_csv("C:\Users\seema\OneDrive\Desktop\COURSE\360DigiTMG Course\Power BI_17042023_10AM\Datasets\education.csv")
+
+after this writing the python codes 
+
+
+visualization -> 
+
+click py in visualization -> enable script visuals-> in values drag and drop gmat,workex 
+
+
+in the python script type->
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.scatter(dataset.Sales,dataset.Discount)
+plt.show()
+
+after typing the code click play button 
+
+
+another python visual 
+
+in the python script type->
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.hist(dataset.workex)
+plt.show()
+
+in the python script type->
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.hist(dataset.gmat)
+plt.show()
+
+
+thats it 
+
+----------------------------------------------------------------------------------------------------------------------
+
+Last Final Class Power BI ->
+
+https://matplotlib.org/stable/plot_types/index.html - > matplotlib visualizations 
+
+https://matplotlib.org/stable/gallery/images_contours_and_fields/triplot_demo.html
+
+
+table -> normal 
+Row -> Sub category 
+Column ->region 
+Values -> Sum of Sales 
+
+
+matrix table ->
+Row -> Sub category 
+Column ->region 
+Values -> Sum of Sales 
+
+
+R --------------------
+
+install.packages("ggplot2",repos="http://cran.us.r-project.org")
+library("ggplot2")
+ggplot(iris,aes(x=Sepal.Length,y=Sepal.Width))+geom_point(size=6)
+
+
+https://r-graph-gallery.com/274-map-a-variable-to-ggplot2-scatterplot.html - R visuals
+
+
+install.packages("readr", repos = "http://cran.us.r-project.org")
+library("readr")
+data <- read_csv("C:/Users/seema/OneDrive/Desktop/COURSE/360DigiTMG Course/Power BI_17042023_10AM/Datasets/education.csv")
+
+
+
+do some visualizations after loading data from csv file 
+
+
+View Bookmark
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
